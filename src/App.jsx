@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Navigation } from './components/Navigation';
 import { Bogota1 } from './components/Bogota1';
 import { Bogota2 } from './components/Bogota2';
 import { Bogota3 } from './components/Bogota3';
@@ -20,6 +21,7 @@ function App() {
           <Route path="/bogota5" element={<Bogota5/>} />
           <Route path="/bogota6" element={<Bogota6/>} />
         </Routes>
+        <Navigation />
       </BrowserRouter>
     </>
   )
