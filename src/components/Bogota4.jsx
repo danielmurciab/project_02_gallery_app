@@ -1,4 +1,4 @@
-import bogota4 from "../assets/img/Bogota4.jpg";
+import bogota4 from "../assets/img/bogota4.jpg";
 
 export const Bogota4 = () => {
   return (
